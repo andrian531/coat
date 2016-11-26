@@ -31,6 +31,11 @@ codeactivis -->
     <link href="<?php echo base_url(); ?>assets/front/css/skins/default.css" id="cpswitch" rel="stylesheet">
 </head>
 <body class="home3 body-innerwrapper">
+<?php $urix=uri_string();
+if($urix!=""){
+        echo '<section id="top-section" class="overlay">';
+}
+?>
     <header>
         <nav class="navbar" data-spy="affix" data-offset-top="1" id="slide-nav">
             <div class="container">
